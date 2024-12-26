@@ -1,15 +1,20 @@
 # FreshAndRottenClassification
 
+#Project Structure
+
+```
 project/
 │
 ├── app.py                # Flask application (backend)
 ├── static/
-│   ├── styles.css        # CSS file for styling
+│   ├── styles.css
+    ├── uploads/
+    ├── model2.h5
 ├── templates/
 │   ├── index.html        # HTML template
-├── model.h5              # Your trained model
-└── uploads/              # Directory to save uploaded images
 
-tutorial:
-Install necessary library: pip install flask gdown numpy tensorflow werkzeug pillow
-To lunch: python app.py
+```
+
+Tutorial:
+  Install necessary library: pip install flask gdown numpy tensorflow werkzeug pillow
+  To lunch: python app.py
