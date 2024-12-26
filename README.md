@@ -16,5 +16,7 @@ project/
 ```
 
 Tutorial:
+
   Install necessary library: pip install flask gdown numpy tensorflow werkzeug pillow
+  
   To lunch: python app.py
