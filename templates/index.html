@@ -46,7 +46,6 @@
     <script>
         document.getElementById('file-upload').addEventListener('change', showSelectedImages);
 
-
         function showSelectedImages(event) {
             const files = event.target.files;
             console.log(files);
@@ -67,6 +66,10 @@
                 list.appendChild(listItem);
             }
             selectedImagesContainer.appendChild(list);
+        }
+
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, window.location.href);
         }
     </script>
 
