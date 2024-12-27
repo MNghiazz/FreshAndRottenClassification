@@ -15,6 +15,9 @@ project/
 
 ```
 
+Dataset link: https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification
+
+
 Tutorial:
 
   Install necessary library: pip install flask gdown numpy tensorflow werkzeug pillow
